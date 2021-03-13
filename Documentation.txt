@@ -1,0 +1,5 @@
+1) composer require intervention/image
+2) on config/app.php add into 
+$provides array -> Intervention\Image\ImageServiceProvider::class
+$aliases  array ->'Image' => Intervention\Image\Facades\Image::class
+3) on Controller use Image
